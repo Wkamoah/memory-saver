@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#uploadForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#imageUpload {
+  padding: 10px;
+}
+
+#noteInput {
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#savedItems {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.saved-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.saved-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.saved-item .delete-memory {
+    margin-top: 10px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.saved-item .delete-memory:hover {
+    background: #a71d2a;
+}
+
+/* Back to Top Button Styles */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#back-to-top:hover {
+    background-color: #fefefe;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #noteInput {
+    height: 80px;
+  }
+
+  button {
+    padding: 12px;
+  }
+}
